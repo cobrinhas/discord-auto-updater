@@ -1,0 +1,3 @@
+
+# every 15 minutes run auto-updater
+*/15 * * * * /usr/local/bin/discord-auto-updater
