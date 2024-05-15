@@ -2,4 +2,4 @@
 
 sudo ln -s $PWD/run.sh /usr/local/bin/discord-auto-updater
 
-({ crontab -l; cat cronfile; } | awk '!x[$0]++' | crontab - ) &> /dev/null
+({ sudo crontab -l; cat cronfile; } | awk '!x[$0]++' | sudo crontab - ) &> /dev/null
